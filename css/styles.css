@@ -13,6 +13,7 @@
   --hero-image-background-color: rgba(196, 196, 196, 100%);
   --socialmedia-icon-color: rgba(175, 177, 184, 100%);
   --footer-smlist-icon: rgba(255, 255, 255, 10%);
+  --item-overlay-backgroundcolor: rgba(47, 48, 58, 80%);
 }
 
 html {
@@ -370,6 +371,37 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
+}
+
+.worklist-item-box {
+  position: relative;
+}
+
+.index-worklist-item:hover .worklist-item-box {
+  opacity: 1;
+}
+
+.worklist-item-box .text {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, 0%);
+
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--body-background-color);
+  background-color: var(--item-overlay-backgroundcolor);
+
+  opacity: 0;
+  transition: 250ms opacity cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* teamlist section */
