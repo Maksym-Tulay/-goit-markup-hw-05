@@ -92,6 +92,8 @@ a {
   padding-bottom: 25px;
   margin-right: 94px;
 
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -139,6 +141,8 @@ a {
   padding-top: 32px;
   padding-bottom: 32px;
 
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -176,6 +180,8 @@ a {
   column-gap: 10px;
   padding-top: 32px;
   padding-bottom: 32px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   font-weight: 500;
   font-size: 14px;
@@ -243,6 +249,9 @@ a {
 .index-hero-button {
   width: 216px;
   height: 50px;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   background-color: var(--blue-color);
   border: none;
   border-radius: 4px;
@@ -350,6 +359,9 @@ a {
   margin: top 0;
   padding-top: 94px;
   padding-bottom: 94px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   /* outline: 2px dashed tomato; */
 }
 
@@ -394,6 +406,8 @@ a {
   width: 100%;
   transform: translate(-50%, 0%);
 
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   padding-top: 27px;
   padding-bottom: 27px;
 
@@ -407,7 +421,6 @@ a {
   background-color: var(--item-overlay-backgroundcolor);
 
   opacity: 0;
-  transition: 250ms opacity cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* teamlist section */
@@ -489,6 +502,9 @@ a {
   justify-content: center;
   width: 44px;
   height: 44px;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   border-radius: 50%;
   background-color: var(--body-background-color);
 }
@@ -501,6 +517,9 @@ a {
 .smlist-icon {
   width: 20px;
   height: 20px;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   fill: var(--socialmedia-icon-color);
 }
 
@@ -541,6 +560,9 @@ a {
   width: 170px;
   height: 92px;
 
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   border: 1px solid;
   border-color: var(--socialmedia-icon-color);
   border-radius: 4px;
@@ -555,6 +577,9 @@ a {
 .clientlist-icon {
   width: 106px;
   height: 60px;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   fill: var(--socialmedia-icon-color);
 }
 
@@ -596,6 +621,11 @@ a {
 .gallery-nav button {
   height: 38px;
   cursor: pointer;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   background-color: var(--grey-background-color);
   border: none;
   border-radius: 4px;
@@ -642,6 +672,9 @@ a {
 
 .gallery-item-box {
   display: block;
+
+  transition: box-sizing 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .gallery-item-box:hover,
@@ -670,7 +703,7 @@ a {
   padding: 63px 24px;
 
   transform: translatey(100%);
-  transition: transform 250ms ease;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   font-weight: 400;
   font-size: 18px;
@@ -740,6 +773,8 @@ a {
   margin-top: 0;
   margin-bottom: 20px;
 
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -776,6 +811,8 @@ a {
 }
 
 .item-address a {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -785,6 +822,8 @@ a {
 }
 
 .item-link a {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -822,6 +861,8 @@ a {
   justify-content: center;
   width: 44px;
   height: 44px;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   border-radius: 50%;
   background-color: var(--footer-smlist-icon);
